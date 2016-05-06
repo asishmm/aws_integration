@@ -1,0 +1,9 @@
+{
+ "name": "prod"
+ "description": "For production environment"
+ "cookbook_versions": {
+   "flask-nginx-webapp": "0.0.2"
+}
+ "json_class": "Chef::Environment",
+ "chef_type": "environment",
+}

@@ -1,0 +1,8 @@
+{
+ "name": "prod1",
+ "chef_type": "node",
+ "json_class": "Chef::Node",
+ "chef_environment": "prod",
+ "run_list": ["recipe[flask-nginx-webapp]"]
+}
+

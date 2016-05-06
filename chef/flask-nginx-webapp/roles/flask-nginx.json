@@ -1,0 +1,9 @@
+{
+ "name": "flask-nginx",
+ "description": "Webapp running flask/python in nginx server"
+ "json_class": "Chef::Role",
+ "chef_type": "role",
+ "run_list": [
+   "recipe['flask-nginx-webapp']
+]
+}
